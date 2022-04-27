@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100&display=swap');
+
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+
+h1{
+ margin-top: 15px;
+}
+
+button{
+ margin-top: 30px;
+}
+
+p, button {
+ font-size: 15px;
+}
+
+p, h1 {
+ color: white;
+}
+
+button{
+ border-radius: 20px;
+ width: 120px;
+ height: 35px;
+}
+
+.one{
+ background-color: hsl(31, 77%, 52%);
+ width: 250px;
+ height: 380px;
+ padding: 30px 50px 30px 30px;
+ line-height: 22px;
+}
+
+.two{
+ background-color: hsl(184, 100%, 22%);
+ width: 250px;
+ height: 380px;
+ padding: 30px 50px 30px 30px;
+ line-height: 22px;
+}
+
+.three{
+ background-color: hsl(179, 100%, 13%);
+ width: 250px;
+ height: 380px;
+ padding: 30px 50px 30px 30px;
+ line-height: 22px;
+}
+
+.one button {
+ color: hsl(31, 77%, 52%);
+ border-color: hsl(31, 77%, 52%);
+ border: none;
+}
+
+.two button{
+ color: hsl(184, 100%, 22%);
+ border-color: hsl(184, 100%, 22%);
+ border: none;
+}
+
+.three button{
+ color: hsl(179, 100%, 13%);
+ border-color: hsl(179, 100%, 13%);
+ border: none;
+}
+
+.content{
+ justify-content: center;
+ margin: 130px
+}
+
+.one{
+ border-top-left-radius: 7px;
+ border-top-right-radius: 7px;
+}
+
+.three{
+ border-bottom-left-radius: 7px;
+ border-bottom-right-radius: 7px;
+}
+
